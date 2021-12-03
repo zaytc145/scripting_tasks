@@ -23,6 +23,6 @@ then
     echo \"\$arch\" | base64 --decode | tar -xvz -C \$unpackdir
 else
     echo \"\$arch\" | base64 --decode | tar -xvz 
-fi" > $name.bash
+fi" > $name.sh
 
-chmod 755 $name.bash
+chmod 755 $name.sh
